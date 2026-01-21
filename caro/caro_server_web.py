@@ -5,7 +5,7 @@ import websockets
 HOST = '0.0.0.0'
 PORT = 8001
 
-clients_queue = []  # Hàng chờ người chơi
+clients_queue = []
 rooms = {}
 room_counter = 0
 

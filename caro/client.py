@@ -94,7 +94,6 @@ class CaroClient:
                 if text == "":
                     continue
 
-                # Try parse JSON; if it's not JSON (e.g. "WELCOME"), ignore
                 try:
                     msg = json.loads(text)
                 except (json.JSONDecodeError, ValueError):
