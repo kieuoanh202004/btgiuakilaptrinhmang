@@ -318,3 +318,9 @@ button {
     font-weight: 800;
     color: rgb(153, 153, 153);
 }
+#board {
+    border-radius: 20px;
+}
+h1 {
+    font-family: Orbitron, sans-serif;
+}
