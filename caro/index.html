@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Cờ Caro Online - Đẹp Lung Linh</title>
+    <title>Cờ Caro Online </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,15 +20,15 @@
 <div class="particle" style="left: 90%; animation-delay: 1.8s;"></div>
 <div class="game-container">
     <div class="game-header" id="defaultHeader">
-        <h1>⭕ CỜ CARO ❌</h1>
+        <h1> <i class="fa-solid fa-o" style="color: #a80505;"></i> CỜ CARO <i class="fa-solid fa-x" style="color: #a80505;" ></i></h1>
         <p class="subtitle">Thách thức bạn bè - Chinh phục chiến thắng</p>
     </div>
 
     <div id="status">🔄 Đang kết nối đến server...</div>
 
     <div class="controls">
-        <button id="joinBtn">🎮 Tìm trận ngay</button>
-        <button id="quitBtn">🚪 Thoát trận</button>
+        <button id="joinBtn"><i class="fa-solid fa-gamepad"></i> Tìm trận ngay</button>
+        <button id="quitBtn"><i class="fa-solid fa-xmark"></i> Thoát trận</button>
     </div>
     <div class="players-header hidden" id="playersHeader">
         <div class="player-card me">
@@ -47,7 +48,7 @@
     <div id="board" class="hidden"></div>
 
     <div id="info">
-        <span>⏱️ Lượt: <span id="turnInfo">Chưa bắt đầu</span></span>
+        <span><i class="fa-solid fa-clock"></i> Lượt: <span id="turnInfo">Chưa bắt đầu</span></span>
     </div>
 </div>
 

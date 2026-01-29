@@ -87,8 +87,8 @@ const connect = () => {
             turnInfoEl.textContent = myTurn ? 'Đến lượt bạn' : 'Đợi đối thủ';
         } else if (msg.status === 'win') {
             alert(msg.winner === mySymbol
-                ? 'CHÚC MỪNG: BẠN THẮNG!'
-                : 'RẤT TIẾC: BẠN THUA!');
+                ? 'CHÚC MỪNG BẠN ĐÃ THẮNG!'
+                : 'RẤT TIẾC BẠN ĐÃ THUA!');
             resetGame();
         } else if (msg.status === 'draw') {
             alert('Hòa!');
