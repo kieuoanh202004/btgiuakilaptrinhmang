@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.responses import HTMLResponse
 from sqlalchemy.orm import Session
-from app import models, schemas, database
+from app import models, schemas, databaseaa
 from app.database import engine, SessionLocal
 
 # --- KHỞI TẠO DATABASE ---
